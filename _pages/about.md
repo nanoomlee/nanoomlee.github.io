@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 4th year Ph.D candidate in physics at New York University
 
 profile:
   align: right
@@ -17,8 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Nanoom. I'm in Ph.D program in physics at NYU since Fall 2018, working with [Prof. Yacine Ali-Haimoud](https://cosmo.nyu.edu/yacine/)  and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I got my M.A in physics at Stony Brook in 2018 where I worked with Prof. Marilena LoVerde and during this time I had been supported by the Korean Government Scholarship for Overseas Study.
+My B.S in physics and mathematics is from Korea University in 2016.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm broadly interested in theoretical cosmology including CMB, recombination, large-scale structure of the universe, redshift-space distortion, DM-baryon scattering, 21cm.
+
+If you have any questions or want to discuss something, feel free to contact me via email!
+
