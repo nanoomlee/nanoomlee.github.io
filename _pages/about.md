@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Nanoom. I'm in Ph.D program in physics at NYU since Fall 2018, working with [Prof. Yacine Ali-Haimoud](https://cosmo.nyu.edu/yacine/)  and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
+Hi, I'm Nanoom. I'm at NYU since Fall 2018, working with [Prof. Yacine Ali-Haimoud](https://cosmo.nyu.edu/yacine/)  and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
 
-I got my M.A in physics at Stony Brook in 2018 where I worked with Prof. Marilena LoVerde and during this time I had been supported by the Korean Government Scholarship for Overseas Study.
+I got my M.A in physics at Stony Brook in 2018 where I worked with [Prof. Marilena Loverde](http://insti.physics.sunysb.edu/~marilena/) and during this time I had been supported by the Korean Government Scholarship for Overseas Study.
 My B.S in physics and mathematics is from Korea University in 2016.
 
 I'm broadly interested in theoretical cosmology including CMB, recombination, large-scale structure of the universe, redshift-space distortion, DM-baryon scattering, 21cm.
