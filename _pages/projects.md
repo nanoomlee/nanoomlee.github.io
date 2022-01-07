@@ -1,10 +1,11 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: List of research projects
 nav: true
-display_categories: [work, fun]
+display_categories: [NYU, Stony Brook]
+#display_categories: [work]
 horizontal: false
 ---
 

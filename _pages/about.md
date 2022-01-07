@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: 4th year Ph.D candidate in physics at New York University
+subtitle: (4th year Ph.D candidate in physics at New York University)
 
 profile:
   align: right
