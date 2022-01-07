@@ -6,6 +6,7 @@ description: #publications by categories in reversed chronological order. genera
 years: [2021,2020] #,1956, 1950, 1935, 1905]
 nav: true
 ---
+Check also my [inspirehep](https://inspirehep.net/authors/1810316?ui-citation-summary=true) and [arXiv](https://arxiv.org/search/?query=Nanoom+lee&searchtype=all&abstracts=show&order=-announced_date_first&size=50) pages.
 <!-- _pages/publications.md -->
 <div class="publications">
 
