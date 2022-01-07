@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: List of research projects
+description: List of research projects (under construction)
 nav: true
 display_categories: [NYU, Stony Brook]
 #display_categories: [work]
