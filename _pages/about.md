@@ -26,5 +26,5 @@ I'm broadly interested in theoretical cosmology including CMB, recombination, la
 
 If you have any questions or want to discuss something, feel free to contact me via email!
 
-Find my [CV](https://github.com/nanoomlee/nanoomlee.github.io/blob/master/assets/pdf/cv.pdf) here.
+Find my [CV](https://nanoomlee.github.io/assets/pdf/cv.pdf) here.
 
