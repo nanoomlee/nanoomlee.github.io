@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Nanoom. I'm at NYU since Fall 2018, working with two amazing scholars, [Prof. Yacine Ali-Haimoud](https://cosmo.nyu.edu/yacine/)  and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
+Hi, I'm Nanoom. I'm at NYU since Fall 2018, working with two amazing scholars, [Prof. Yacine Ali-Ha&#xef;moud](https://cosmo.nyu.edu/yacine/)  and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
 
 I got my M.A in physics at Stony Brook in 2018 where I worked with [Prof. Marilena LoVerde](https://phys.washington.edu/people/marilena-loverde). During this time I had been supported by the Korean Government Scholarship for Overseas Study.
 My B.S in physics and mathematics is from Korea University in 2016 with First Rank Graduation Award.
