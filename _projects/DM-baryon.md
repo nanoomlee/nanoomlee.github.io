@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 6
-category: fun
+title: DM-baryon scattering with Fokker-Planck operator
+description: Studying effect of DM-baryon scattering without assuming MB distribution for DM
+#img: assets/img/alpha_z_Dh_CMB.pdf
+importance: 2
+category: Ongoing
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 6
-category: fun
+title: Perturbed Recombination
+description: (arXiv:2108.07798) <br> Effect of small-scale baryon perturbations on CMB anisotropy spectra
+img: assets/img/sigma_index.pdf
+importance: 3
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.

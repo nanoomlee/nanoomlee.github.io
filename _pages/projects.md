@@ -4,8 +4,8 @@ title: Research
 permalink: /projects/
 description: #A growing collection of your cool projects.
 nav: true
-nav_order: 2
-#display_categories: [work, fun]
+nav_order: 1
+display_categories: [Ongoing, Past]
 horizontal: false
 ---
 Check also my [inspirehep](https://inspirehep.net/authors/1810316?ui-citation-summary=true) and [arXiv](https://arxiv.org/search/?query=Nanoom+lee&searchtype=all&abstracts=show&order=-announced_date_first&size=50) pages.

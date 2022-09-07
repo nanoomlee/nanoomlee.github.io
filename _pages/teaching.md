@@ -7,7 +7,12 @@ nav: true
 nav_order: 5
 ---
 
-Mathematical Physics (undergrad): Spring 2019, Spring 2020
+Teaching Assistant at NYU
 
-Electricity & Magnetism I (undergrad): Fall 2019, Fall 2021
+- <a href="https://as.nyu.edu/physics/programs/graduate/outstanding-graduate-student-instructor-award.html">Outstanding Graduate Student Instructor Award, 2020</a> (Department of Physics, NYU)
+
+- Mathematical Physics (undergrad, NYU): Spring 2019, Spring 2020
+
+- Electricity & Magnetism I (undergrad, NYU): Fall 2019, Fall 2021
+
 

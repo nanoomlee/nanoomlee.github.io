@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 6
-category: fun
+title: Galaxy Power Spectrum from BOSS - RSD
+description: Small reseach project for one of requirements in NYU physics Ph.D program
+img: assets/img/bestfit_fog_loop_galaxy23_all_combined_gamma2_fixed_kmax_015_final_ratio.pdf
+importance: 5
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.

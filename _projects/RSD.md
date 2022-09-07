@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Improvement on Galaxy Redshift-Space Distortion (RSD) Model
+description: Studying possible improvement on the current RSD model
+#img: assets/img/alpha_z_Dh_CMB.pdf
 importance: 3
-category: fun
+category: Ongoing
 ---
 
 Every project has a beautiful feature showcase page.

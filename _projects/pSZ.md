@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: Cosmic Birefringence with pSZ
+description: (arXiv:2207.05687) <br> Explored the prospects to probe cosmic birefringence using polarized Sunyaev Zel'dovich (pSZ) tomography
+img: assets/img/delta_g_x_E.pdf
+#redirect: https://unsplash.com
+importance: 2
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.

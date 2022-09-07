@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Modifying recombination for the Hubble tension
+description: Developed a general formalism finding extensions to LCDM model without deteriorating goodness of fit to given cosmological data (e.g time varying fine structure constant, electron mass)
+img: assets/img/alpha_z_Dh_CMB.pdf
+importance: 1
+category: Ongoing
 ---
 
 Every project has a beautiful feature showcase page.

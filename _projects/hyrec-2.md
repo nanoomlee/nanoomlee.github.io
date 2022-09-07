@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: HYREC-2
+description: (arXiv:2007.14114) <br> A fast (~1ms) code for cosmological recombination history
+img: assets/img/DKK_range_gaussian.pdf
+importance: 4
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.
