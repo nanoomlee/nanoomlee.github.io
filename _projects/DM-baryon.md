@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DM-baryon scattering with Fokker-Planck operator
+title: DM-Baryon Scattering with Fokker-Planck Operator
 description: Studying effect of DM-baryon scattering without assuming MB distribution for DM
 #img: assets/img/alpha_z_Dh_CMB.pdf
 importance: 2
