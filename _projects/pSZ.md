@@ -2,7 +2,7 @@
 layout: page
 title: Cosmic Birefringence with pSZ
 description: (arXiv:2207.05687) <br> Explored the prospects to probe cosmic birefringence using polarized Sunyaev Zel'dovich (pSZ) tomography
-img: assets/img/delta_g_x_E.pdf
+img: assets/img/delta_g_x_E.png
 #redirect: https://unsplash.com
 importance: 2
 category: Past

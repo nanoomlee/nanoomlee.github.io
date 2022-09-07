@@ -2,7 +2,7 @@
 layout: page
 title: Perturbed Recombination
 description: (arXiv:2108.07798) <br> Effect of small-scale baryon perturbations on CMB anisotropy spectra
-img: assets/img/sigma_index.pdf
+img: assets/img/sigma_index.png
 importance: 3
 category: Past
 ---
