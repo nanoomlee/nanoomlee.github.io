@@ -2,11 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: (4th year Ph.D candidate in physics at New York University)
+subtitle: (5th year Ph.D candidate in physics at New York University)
 
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>935</p>
     <p>726 Broadway</p>
@@ -27,4 +28,3 @@ I'm broadly interested in theoretical cosmology including CMB, recombination, la
 If you have any questions or want to discuss something, feel free to contact me via email!
 
 Find my [CV](https://nanoomlee.github.io/assets/pdf/cv.pdf) here.
-

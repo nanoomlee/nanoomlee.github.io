@@ -2,13 +2,13 @@
 layout: page
 title: Research
 permalink: /projects/
-description: List of research projects (under construction)
+description: #A growing collection of your cool projects.
 nav: true
-display_categories: [NYU, Stony Brook]
-#display_categories: [work]
+nav_order: 2
+#display_categories: [work, fun]
 horizontal: false
 ---
-
+Check also my [inspirehep](https://inspirehep.net/authors/1810316?ui-citation-summary=true) and [arXiv](https://arxiv.org/search/?query=Nanoom+lee&searchtype=all&abstracts=show&order=-announced_date_first&size=50) pages.
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
