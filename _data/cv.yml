@@ -58,7 +58,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022 - 2023
+    - year: 2022 - 2023 <br> 2020 - 2021
       title: 
         - James Arthur Graduate Associate Fellowship (CCPP, NYU)
     - year: 2022
@@ -66,12 +66,11 @@
         - Balzan Cosmological Studies Program Award (by Oxford and JHU)
       description:
         - <a href="https://balzan.new.ox.ac.uk">https://balzan.new.ox.ac.uk</a>
-    - year: 2020 - 2021
+    - year: 2019 - 2020
       title: 
-        - James Arthur Graduate Associate Fellowship (CCPP, NYU)
-    - year: 2020
-      title: 
-        - Outstanding Graduate Student Instructor Award, 2019-2020
+        - Outstanding Graduate Student Instructor Award <br> (Department of Physics, NYU)
+      description:
+        - <a href="https://as.nyu.edu/physics/programs/graduate/outstanding-graduate-student-instructor-award.html">A list of recipients</a>
     - year: 2016 - 2018
       title: 
         - <u>Korean Government Scholarship for Overseas Study</u>
@@ -80,7 +79,7 @@
         - $80,000
     - year: 2016
       title: 
-        - First Rank Graduation Award (Korea University)
+        - First Rank Graduation Award (Department of Physics, Korea University)
     - year: 2012 - 2013, 2015
       title: 
         - Boheon Scholarship
