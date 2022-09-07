@@ -9,7 +9,7 @@ nav_order: 5
 
 Teaching Assistant at NYU
 
-- <a href="https://as.nyu.edu/physics/programs/graduate/outstanding-graduate-student-instructor-award.html">Outstanding Graduate Student Instructor Award, 2020</a> (Department of Physics, NYU)
+- <a href="https://as.nyu.edu/physics/programs/graduate/outstanding-graduate-student-instructor-award.html">Outstanding Graduate Student Instructor Award, 2019-2020</a> (Department of Physics, NYU)
 
 - Mathematical Physics (undergrad, NYU): Spring 2019, Spring 2020
 
