@@ -91,7 +91,7 @@
       title: 
         - National Scholarship
            
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Cosmology
