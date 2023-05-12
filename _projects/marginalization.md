@@ -4,7 +4,7 @@ title: Analytic marginalization
 description: We are developing a new approximate method of analytic marginalization which correctly takes into account correlation between cosmological and nuisance parameters.
 #img: assets/img/me_z_Dh_R_CMB.png
 importance: 1
-category: Past
+category: Ongoing
 ---
 
 Every project has a beautiful feature showcase page.
