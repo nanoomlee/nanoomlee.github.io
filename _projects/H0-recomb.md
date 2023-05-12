@@ -2,9 +2,9 @@
 layout: page
 title: Modifying Recombination for the Hubble Tension
 description: (Will appear on arXiv very soon!) <br> Developed a general formalism finding extensions to LCDM model without deteriorating goodness of fit to given cosmological data (e.g time varying fine structure constant, electron mass)
-img: assets/img/alpha_z_Dh_CMB.png
+img: assets/img/me_z_Dh_R_CMB.png
 importance: 1
-category: Ongoing
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.
