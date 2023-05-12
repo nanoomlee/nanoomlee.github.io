@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: (5th year Ph.D candidate in physics at New York University)
+subtitle: (A final year Ph.D candidate in physics at New York University)
 
 profile:
   align: right
