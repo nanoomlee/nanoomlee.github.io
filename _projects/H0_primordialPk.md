@@ -3,7 +3,7 @@ layout: page
 title: Modifying primordial power spectrum for the Hubble Tension
 description: Based on Phys.Rev.Lett. 130, 161003 (2023), we try to find a modification of primordial power spectrum as a solution to the Hubble tension.
 #img: assets/img/me_z_Dh_R_CMB.png
-importance: 1
+importance: 2
 category: Ongoing
 ---
 
