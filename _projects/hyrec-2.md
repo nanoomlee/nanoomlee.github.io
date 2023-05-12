@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HYREC-2
-description: (arXiv:2007.14114) <br> A fast (~1ms) code for cosmological recombination history
+description: [Phys.Rev.D 102, 083517 (2020) (arXiv:2007.14114)] <br> A fast (~1ms) code for cosmological recombination history
 img: assets/img/DKK_range_gaussian.png
 importance: 4
 category: Past
