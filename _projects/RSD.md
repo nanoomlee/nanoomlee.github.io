@@ -3,7 +3,7 @@ layout: page
 title: Improvement on Galaxy Redshift-Space Distortion (RSD) Model
 description: Studying possible improvement on the current RSD model
 #img: assets/img/alpha_z_Dh_CMB.pdf
-importance: 3
+importance: 2
 category: Ongoing
 ---
 
