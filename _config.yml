@@ -84,8 +84,8 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  Feel free to send me email or check my Github page!
+contact_note: #>
+#  Feel free to send me email or check my Github page!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
