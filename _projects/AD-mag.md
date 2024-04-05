@@ -3,7 +3,7 @@ layout: page
 title: Magnetic fields from small-scale primordial perturbations
 description: Submitted to Phys.Rev.D. (arXiv:2404.03655) <br> Calculate magnetic fields in the early Universe produced by Biermann-battery mechanism considering various initial conditions of the Universe
 img: assets/img/PB_ad_noSD_correct_vbc.png
-importance: 1
+importance: 0
 category: Past
 ---
 
