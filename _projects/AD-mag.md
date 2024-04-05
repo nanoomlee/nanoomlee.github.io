@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Probing light relics through cosmic dawn
-description: Phys.Rev.D 109, 043502 (2024) (arXiv:2309.15119) <br> Forecasts for upcoming 21cm surveys on top of upcoming CMB surveys showing the prospects of 21cm to probe light relics from early Universe
-img: assets/img/Neff_fisherNonGaussian_delensed_DESI_S4_regular.png
+title: Magnetic fields from small-scale primordial perturbations
+description: Submitted to Phys.Rev.D. (arXiv:2404.03655) <br> Calculate magnetic fields in the early Universe produced by Biermann-battery mechanism considering various initial conditions of the Universe
+img: assets/img/PB_ad_noSD_correct_vbc.png
 importance: 1
 category: Past
 ---
