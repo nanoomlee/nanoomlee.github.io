@@ -14,4 +14,4 @@ Teaching Assistant at NYU
 
 - Electricity & Magnetism I (undergrad, NYU): Fall 2019, Fall 2021
 
-
+- General Physics I Lab (undergrad, NYU): Spring 2024
