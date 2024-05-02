@@ -45,10 +45,11 @@
 
     - title: Graduate Teaching Assistant
       institution: New York University, New York, NY
-      year: 2019 - 2021
+      year: 2019 - 2021 <br> 2024
       description:
         - Mathematical Physics (undergrad) - Spring 2019, Spring 2020
         - Electricity & Magnetism I (undergrad) - Fall 2019, Fall 2021
+        - General Physics I Lab (undergrad) - Spring 2024
 
     - title: Military Service - KATUSA (Korean Augmentation To the United States Army), Sergeant
       institution: Camp Humphreys, Pyeongtaek, South Korea
