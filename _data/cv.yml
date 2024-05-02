@@ -11,7 +11,7 @@
   contents:
     - title: Ph.D in Physics
       institution: New York University, New York, NY
-      year: 2024 (expected)
+      year: Jan 2025  <br> (expected)
       description:
         - Ph.D advisor - <a href="https://cosmo.nyu.edu/yacine/">Prof. Yacine Ali-Ha&#xef;moud</a> & <a href="https://cosmo.nyu.edu/roman/">Prof. Roman Scoccimarro</a>
         #- title: Description 3.
@@ -20,13 +20,13 @@
         #    - Sub-description 2.
     - title: M.A. in Physics
       institution: State University of New York, Stony Brook, Stony Brook, NY
-      year: 2018
+      year: May 2018
       description:
         - Research advisor - <a href="https://phys.washington.edu/people/marilena-loverde">Prof. Marilena LoVerde</a>
 
     - title: B.S. in Physics and Mathematics (double major)
       institution: Korea University, Seoul, South Korea
-      year: 2016
+      year: Feb 2016
       description:
         - First rank in class
 
