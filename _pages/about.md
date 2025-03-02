@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -21,10 +21,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi, I'm Nanoom. I'm a Horizon postdoctoral fellow at Johns Hopkins University working with [Prof. Marc Kamionkowski](https://sites.krieger.jhu.edu/kamionkowski/) since Oct 2024. I did my PhD in 2024 at New York University where I worked with two amazing scholars, [Prof. Yacine Ali-Ha&#xef;moud](https://cosmo.nyu.edu/yacine/) and [Prof. Roman Scoccimarro](https://cosmo.nyu.edu/roman/).
