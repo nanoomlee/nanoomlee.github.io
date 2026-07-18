@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nanoom Lee — Research</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="index.html">Nanoom Lee</a></p>
+    <p class="site-tagline">Horizon Postdoctoral Fellow,&ensp;Johns Hopkins University</p>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.pdf">CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-title">Research</h1>
+
+  <p class="research-intro">
+    I work in theoretical cosmology, developing numerical and analytic tools to model
+    non-cold relics, cosmological recombination, and other early-Universe physics, and
+    using them to confront data-driven questions like the Hubble tension, decaying dark
+    matter, and probes of light relics and dark-sector physics through the CMB and
+    large-scale structure. Below are a few themes I've worked on, roughly in reverse
+    chronological order.
+  </p>
+
+  <section class="research-list">
+    <div class="entry">
+      <p class="entry-title">Decaying Dark Matter with an Integral-Equation Approach</p>
+      <p class="entry-meta">2026 &middot; with A. Bencke&dagger;, M. Kamionkowski, J. L. Bernal</p>
+      <p>
+        We study models where a dark matter particle decays into two lighter daughter
+        particles with arbitrary masses, naturally spanning both the massless limit (dark
+        radiation) and the massive limit (warm decay products). Building on our
+        integral-equation framework for non-cold relics, we developed
+        <strong>CLASSIER-DDM</strong>, an extension of CLASSIER that evolves the decay
+        products' perturbations without truncating a Boltzmann hierarchy or resorting to
+        fluid approximations. The method handles the momentum-dependent decay time of each
+        product, achieves sub-0.1% accuracy in both the matter power spectrum and the CMB
+        lensing potential power spectrum, and runs in about a minute per evaluation &mdash;
+        making DDM parameter estimation numerically tractable across a wide range of decay
+        rates and kick velocities.
+      </p>
+      <p>
+        Using this framework, we also derived observational constraints from current data.
+        Motivated by DESI's ~5% lower late-time matter density relative to Planck, we
+        combined DESI DR2 BAO with Planck CMB data including lensing and found that
+        decaying dark matter is not favored over &Lambda;CDM: CMB lensing tightly
+        constrains the recoil velocity imparted to decay products (to within
+        10<sup>&minus;2</sup>&ndash;10<sup>&minus;3</sup> of the speed of light at
+        1&sigma;), though part of the allowed parameter space could still help address
+        small-scale structure anomalies like dwarf-galaxy discrepancies.
+      </p>
+      <div class="figure-grid">
+        <figure class="entry-figure">
+          <img src="plots/observables_vary_Gamma_Pk.png" alt="Matter power spectrum P(k) as the DDM decay rate Gamma is varied.">
+          <figcaption>Matter power spectrum P(k) as the DDM decay rate &Gamma; is varied.</figcaption>
+        </figure>
+        <figure class="entry-figure">
+          <img src="plots/observables_vary_vkick_Pk.png" alt="Matter power spectrum P(k) as the decay-product kick velocity is varied.">
+          <figcaption>Matter power spectrum P(k) as the decay-product kick velocity is varied.</figcaption>
+        </figure>
+      </div>
+      <div class="tag-list">
+        <span class="tag">Integral-Equation Method</span>
+        <span class="tag">Decaying Dark Matter</span>
+        <span class="tag">CMB Lensing</span>
+        <span class="tag">CLASSIER-DDM</span>
+      </div>
+      <p class="entry-links">
+        <a href="#">CLASSIER-DDM paper (in preparation)</a>
+        <a href="https://arxiv.org/abs/2606.14849" target="_blank" rel="noopener">arXiv:2606.14849 →</a>
+        <a class="code-link" href="https://github.com/nanoomlee/CLASSIER/tree/CLASSIER-DDM" target="_blank" rel="noopener">link to CLASSIER-DDM</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Non-Cold Relics Without a Boltzmann Hierarchy</p>
+      <p class="entry-meta">2025 &ndash; 2026 &middot; with M. Kamionkowski et al.</p>
+      <p>
+        Traditional Boltzmann codes track non-cold relics (like massive neutrinos) by
+        truncating an infinite hierarchy of multipole equations, which becomes costly and
+        can introduce numerical artifacts on small scales. We developed <strong>CLASSIER</strong>
+        (CLASS Integral Equation Revision), which replaces that hierarchy with a set of
+        integral equations solved iteratively, matching fully-converged accuracy while
+        avoiding truncation artifacts. A follow-up analytic approximation for the
+        small-scale, quasi-stationary regime pushes this further, giving a 3&ndash;6&times;
+        speedup over standard CLASS while preserving sub-0.1% accuracy in the matter power
+        spectrum &mdash; removing massive neutrinos as a computational bottleneck for
+        high-precision, small-scale cosmological analyses. Together, these results lay the
+        groundwork for fast, accurate treatment of non-cold relics in future cosmological
+        analyses.
+      </p>
+      <figure class="entry-figure">
+        <img src="plots/classier-comparison.png" alt="Comparison of massive-neutrino perturbation evolution computed with CLASSIER versus standard CLASS at different multipole truncations, showing CLASSIER matches the converged result while running far faster.">
+        <figcaption>CLASSIER (black) reproduces the fully-converged neutrino perturbation at a fraction of the runtime, while truncated CLASS solutions (blue, orange) develop noise at late times.</figcaption>
+      </figure>
+      <div class="tag-list">
+        <span class="tag">Boltzmann Codes</span>
+        <span class="tag">Non-Cold Relics</span>
+        <span class="tag">CLASSIER</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2506.01956" target="_blank" rel="noopener">arXiv:2506.01956 →</a>
+        <a href="https://arxiv.org/abs/2510.20821" target="_blank" rel="noopener">arXiv:2510.20821 →</a>
+        <a class="code-link" href="https://github.com/nanoomlee/CLASSIER" target="_blank" rel="noopener">link to CLASSIER</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Data-Driven Solutions to the Hubble Tension</p>
+      <p class="entry-meta">2022 &ndash; 2026 &middot; with Y. Ali-Ha&iuml;moud, N. Sch&ouml;neberg, V. Poulin, M. Braglia, T. Zhou&dagger;</p>
+      <figure class="entry-figure inline-figure">
+        <img src="plots/P-ACT-L.png" alt="Modified-recombination solution to the Hubble tension using Planck + ACT DR6 with lensing (P-ACT-L).">
+        <figcaption>Modified-recombination solution to the Hubble tension using Planck + ACT DR6 with lensing (P-ACT-L).</figcaption>
+      </figure>
+      <p>
+        A three-part series using the Fisher-bias formalism to ask, quantitatively, what
+        data-driven modifications to &Lambda;CDM could resolve the Hubble tension without
+        degrading the fit elsewhere. Paper 1 showed a perturbative time-varying electron
+        mass can fully resolve the tension using Planck CMB data alone, though adding BAO
+        and supernova data breaks the solution. Paper 2 instead explored scale-dependent
+        modifications to the primordial power spectrum, again finding solutions that work
+        for Planck alone but conflict with BAO and supernova data. Paper 3 revisited the
+        recombination approach with newer ACT DR6 and DESI DR2 data, confirming the same
+        oscillatory recombination modification is robust to Planck alone, but still fails
+        once DESI DR2 BAO is included. Across all three, the same tension recurs: any
+        modification that raises H<sub>0</sub> tends to lower the total matter density
+        &Omega;<sub>m</sub>, in conflict with late-time observations.
+      </p>
+      <div class="tag-list" style="clear: both;">
+        <span class="tag">Hubble Tension</span>
+        <span class="tag">Fisher-Bias Formalism</span>
+        <span class="tag">Cosmological Recombination</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2212.04494" target="_blank" rel="noopener">arXiv:2212.04494 →</a>
+        <a href="https://arxiv.org/abs/2504.07966" target="_blank" rel="noopener">arXiv:2504.07966 →</a>
+        <a href="https://arxiv.org/abs/2606.06495" target="_blank" rel="noopener">arXiv:2606.06495 →</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Compressed Gaussian Likelihood for the Planck Low-&#8467; Data</p>
+      <p class="entry-meta">2026</p>
+      <p>
+        Fisher-matrix analyses require an analytic Gaussian &chi;<sup>2</sup>, but CMB
+        low-&#8467; likelihoods &mdash; including Planck's SRoll2 EE data, currently the
+        tightest constraint on the reionization optical depth &tau; &mdash; are
+        non-Gaussian. We show that an offset log-normal likelihood is exactly Gaussian in
+        the log-transformed power spectrum amplitude, letting it serve as a proxy for the
+        true likelihood in Fisher-matrix analyses without any explicit change of variables.
+        Building on this, we compress the SRoll2 likelihood into a small number of
+        piecewise offset log-normal fits, validate it against the full SRoll2 likelihood
+        via MCMC (with Planck and ACT DR6 data) across standard and extended &Lambda;CDM
+        models, and release it as <strong>planck-gaussian-lowl</strong>, a lightweight
+        public Python package.
+      </p>
+      <div class="tag-list">
+        <span class="tag">CMB</span>
+        <span class="tag">Reionization</span>
+        <span class="tag">Fisher Forecasting</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2606.05166" target="_blank" rel="noopener">arXiv:2606.05166 →</a>
+        <a class="code-link" href="https://github.com/nanoomlee/planck-gaussian-lowl" target="_blank" rel="noopener">link to planck-gaussian-lowl</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Magnetic Fields from Small-Scale Primordial Perturbations</p>
+      <p class="entry-meta">2024 &middot; with Y. Ali-Ha&iuml;moud</p>
+      <figure class="entry-figure inline-figure">
+        <img src="plots/PB_ad_noSD_correct_vbc.png" alt="Magnetic field power spectrum from adiabatic perturbations, including the baryon-dark matter relative velocity correction.">
+        <figcaption>Magnetic field power spectrum from adiabatic perturbations, including the baryon-dark matter relative velocity correction.</figcaption>
+      </figure>
+      <p>
+        Weak cosmic magnetic fields can be seeded before recombination via the
+        Biermann-battery mechanism, sourced by density and temperature gradients acting on
+        free electrons. We computed these fields self-consistently &mdash; including
+        baryon-dark matter relative velocities &mdash; for both standard adiabatic
+        perturbations and non-standard small-scale isocurvature perturbations. Standard
+        adiabatic perturbations yield fields with rms &sim;10<sup>&minus;15</sup> nG on
+        &sim;kpc comoving scales at cosmic dawn, a plausible seed for present-day galactic
+        and cluster magnetic fields. Pushing to current upper limits on small-scale
+        isocurvature perturbations could enhance this considerably, suggesting magnetic
+        fields as a novel, if currently unobservable, probe of poorly constrained
+        small-scale initial conditions.
+      </p>
+      <div class="tag-list" style="clear: both;">
+        <span class="tag">Magnetic Fields</span>
+        <span class="tag">Primordial Perturbations</span>
+        <span class="tag">Cosmic Dawn</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2404.03655" target="_blank" rel="noopener">arXiv:2404.03655 →</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Probing Light Relics with 21-cm Cosmic Dawn Surveys</p>
+      <p class="entry-meta">2023 &ndash; 2024 &middot; with S. C. Hotinli</p>
+      <figure class="entry-figure inline-figure">
+        <img src="plots/Neff_fisherNonGaussian_delensed_DESI_S4_regular.png" alt="Fisher forecast constraints on Neff combining delensed CMB-S4 and DESI 21-cm survey configurations.">
+        <figcaption>Fisher forecast constraints on N<sub>eff</sub> combining delensed CMB-S4 and DESI 21-cm survey configurations.</figcaption>
+      </figure>
+      <p>
+        We assessed how much upcoming 21-cm surveys of cosmic dawn
+        (12&nbsp;&lesssim;&nbsp;z&nbsp;&lesssim;&nbsp;30), like the Square Kilometre Array,
+        can sharpen constraints on the effective number of relativistic species
+        N<sub>eff</sub> &mdash; a key probe of light particles beyond the Standard Model
+        &mdash; on top of CMB-S4, the Simons Observatory, and DESI. Including SKA
+        cosmic-dawn data alongside CMB-S4 tightens constraints to
+        2&sigma;(N<sub>eff</sub>)&nbsp;=&nbsp;0.034, and once the degeneracy with the
+        primordial helium fraction Y<sub>p</sub> is accounted for, sensitivity to both
+        N<sub>eff</sub> and the dark matter density improves by more than a factor of two.
+      </p>
+      <div class="tag-list" style="clear: both;">
+        <span class="tag">21-cm Cosmology</span>
+        <span class="tag">Light Relics</span>
+        <span class="tag">Cosmic Dawn</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2309.15119" target="_blank" rel="noopener">arXiv:2309.15119 →</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Cosmic Birefringence via Polarized Sunyaev-Zel'dovich Tomography</p>
+      <p class="entry-meta">2022 &middot; with S. C. Hotinli, M. Kamionkowski</p>
+      <figure class="entry-figure inline-figure">
+        <img src="plots/delta_g_x_E.png" alt="Cross-correlation between the galaxy overdensity and CMB E-mode polarization used in the pSZ tomography reconstruction.">
+        <figcaption>Cross-correlation between the galaxy overdensity and CMB E-mode polarization used in the pSZ tomography reconstruction.</figcaption>
+      </figure>
+      <p>
+        If the physics of the dark sector violates parity symmetry, CMB photons' linear
+        polarization can rotate as they traverse the dark-sector background &mdash;
+        "cosmic birefringence," for which recent CMB EB-spectrum measurements show
+        ~3&sigma; hints. We show that polarized Sunyaev-Zel'dovich (pSZ) tomography, which
+        reconstructs the CMB quadrupole seen by free electrons at different redshifts, can
+        independently probe the redshift dependence of this rotation and help calibrate
+        instrumental polarization-angle systematics. As an example, pSZ tomography could
+        probe axion-like dark energy with masses
+        &lesssim;&nbsp;10<sup>&minus;32</sup>&nbsp;eV, sourcing &sim;0.1&deg; of rotation
+        between reionization and recombination.
+      </p>
+      <div class="tag-list" style="clear: both;">
+        <span class="tag">Cosmic Birefringence</span>
+        <span class="tag">CMB Polarization</span>
+        <span class="tag">Dark Energy</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2207.05687" target="_blank" rel="noopener">arXiv:2207.05687 →</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Probing Small-Scale Isocurvature Perturbations with the CMB</p>
+      <p class="entry-meta">2021 &middot; with Y. Ali-Ha&iuml;moud</p>
+      <p>
+        Baryon and cold dark matter isocurvature perturbations are essentially unconstrained
+        on sub-Mpc scales. We developed a formalism for how small-scale baryon perturbations,
+        with arbitrary time and scale dependence, alter the mean free-electron abundance
+        during recombination and thus imprint on CMB anisotropies. Applying this to Planck
+        data across four isocurvature scenarios (pure baryon, pure CDM, compensated, and
+        joint baryon-CDM), we found no evidence for such perturbations and set upper limits
+        on their initial power spectrum on comoving scales
+        1&nbsp;Mpc<sup>&minus;1</sup>&nbsp;&le;&nbsp;k&nbsp;&le;&nbsp;10<sup>3</sup>&nbsp;Mpc<sup>&minus;1</sup>
+        &mdash; and showed this ingredient does not resolve the Hubble tension. A generalized
+        Fisher forecast indicates a CMB Stage-4 experiment could probe 3&ndash;10&times;
+        deeper than current Planck limits.
+      </p>
+      <div class="tag-list">
+        <span class="tag">CMB</span>
+        <span class="tag">Isocurvature Perturbations</span>
+        <span class="tag">Recombination</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2108.07798" target="_blank" rel="noopener">arXiv:2108.07798 →</a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <p class="entry-title">Cosmological Recombination Code: HYREC-2</p>
+      <p class="entry-meta">2020 &middot; with Y. Ali-Ha&iuml;moud</p>
+      <p>
+        Precision CMB analyses depend on an accurate recombination history, but the most
+        accurate codes were too slow to run inside cosmological parameter searches, and the
+        fast ones (e.g. RECFAST) weren't accurate enough. <strong>HYREC-2</strong> closes that
+        gap: an effective 4-level atom model captures the non-equilibrium behavior of highly
+        excited hydrogen states, with a tabulated correction for Lyman-&alpha; radiative
+        transfer, reproducing the accuracy of the original HYREC and COSMOREC codes while
+        running in under a millisecond. It introduces no detectable bias in cosmological
+        parameters even for an ideal, cosmic-variance-limited experiment out to
+        &#8467; = 5000, and has since been incorporated into CLASS and CAMB.
+      </p>
+      <div class="tag-list">
+        <span class="tag">Recombination</span>
+        <span class="tag">CMB</span>
+        <span class="tag">HYREC-2</span>
+      </div>
+      <p class="entry-links">
+        <a href="https://arxiv.org/abs/2007.14114" target="_blank" rel="noopener">arXiv:2007.14114 →</a>
+        <a class="code-link" href="https://github.com/nanoomlee/HYREC-2" target="_blank" rel="noopener">link to HyRec2</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    &copy; 2026 Nanoom Lee. Built with <svg class="claude-mark" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z" fill="#D97757" fill-rule="nonzero"/></svg> Claude.
+  </div>
+</footer>
+
+</body>
+</html>
